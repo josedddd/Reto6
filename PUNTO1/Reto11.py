@@ -2,6 +2,7 @@
 # Por cada operacion se hace con un match y un case, y se asigna el resultado la correspondiente operacion
 # Si en la entrada, se pone algo que no sea un float o un int, o existe una division por 0
 # se detecta y se "guarda" este error, evitando una interrupcion brusca, se usa tanto try-except como raise.
+
 def operations(num1: float, num2: float, op: str): 
     try:
         if not isinstance(num2, (float, int)) or not isinstance(num1, (float,int)):
