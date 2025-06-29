@@ -15,4 +15,4 @@ def palindrome(word: str) -> bool:
         print(f"error: {error}")
         
 if __name__=="__main__":
-palindrome(2)
+    palindrome(2)
