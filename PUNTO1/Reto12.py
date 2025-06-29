@@ -1,5 +1,5 @@
 # Punto 2
-def palindrome(word: str) ->bool:  
+def palindrome(word: str) -> bool:  
     word_r=[]
     try:
         if type(word) != str:
