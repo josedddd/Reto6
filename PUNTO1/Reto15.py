@@ -1,4 +1,8 @@
 #Punto 5
+#En este codigo, al igual que el anterior, si la lista no es suficientemente grande, genera un Indexerror porque el codigo no puede funcionar
+#Con el try-except, es lo mismo que el anterior, si lo que se introduce no es una palabra se usa el except para "guardar" el error y que el 
+#codigo pueda funcionar normalmente, y detectar si las palabras tienen la misma cantidad.
+
 def equal(list_word: list):
     list_equal_length = []
     if len(list_word) < 2:
