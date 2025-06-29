@@ -1,4 +1,7 @@
 #Punto 4
+# Primero si en la lista no hay dos numeros o mas, genera un Index-error con el raise, porque el programa no puede funcionar. Luego con el try-except, se detecta el tipo de 
+# los elementos de la lista, y si alguno no es entero, simplemente el except lo "guarda" haciendo que el codigo pueda correr, y detectar la mayor suma entre los enteros que halla
+
 def maxsum(list_num: list):
     consecutive_sum=[]
     if len(list_num) < 2:
