@@ -13,5 +13,6 @@ def palindrome(word: str) ->bool:
             return False
     except TypeError as error:
         print(f"error: {error}")
-    
+        
+if __name__=="__main__":
 palindrome(2)
