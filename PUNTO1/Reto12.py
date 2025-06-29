@@ -1,4 +1,5 @@
 # Punto 2
+# Si se introduce algo que no sea una palabra, se detecta este type-error con el raise, y con el except se "guarda".
 def palindrome(word: str) -> bool:  
     word_r=[]
     try:
